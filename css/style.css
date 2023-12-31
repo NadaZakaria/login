@@ -1,0 +1,70 @@
+::selection{
+    color: white;
+}
+body{
+    background-color:#24353f;
+}
+.bord , nav{
+
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px black
+ 
+
+}
+
+h1{
+    color: #18a2b8;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.form-control{
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: transparent;
+
+}
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0.2rem #24353f;
+    border-color: #80bdff;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+    color: white !important;
+}
+
+
+button{
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+.btn-outline-info:hover{
+    color: white;
+}
+
+.form-control::placeholder{
+    color: #ced4da;
+}
+
+input{
+    color: white;
+}
+
+.wBtn {
+    width: 85px;
+    height: 45px;
+    
+}
+
+.wBtn a{
+    color: #ced4da;
+    font-size: 18px;
+}
+
+.content{
+    box-shadow: -5px 2px 54px -9px black;
+    color: #ced4da;
+}
